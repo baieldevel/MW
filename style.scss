@@ -80,7 +80,8 @@
         font-size: 120px;
         //line-height: 120%;
         color: #FFFFFF;
-        text-shadow: 0 10px 10px rgba(0, 0, 0, 0.85);      }
+        text-shadow: 0 10px 10px rgba(0, 0, 0, 0.85);
+      }
 
       p {
         font-weight: 500;
@@ -294,6 +295,7 @@
       display: flex;
       align-items: center;
       justify-content: center;
+
       button {
         margin: 50px 0;
         width: 400px;
@@ -875,6 +877,21 @@
       object-fit: cover;
     }
 
+    .swiper-wrapper {
+
+      .swiper-slide {
+        img {
+          border-radius: 50%;
+        }
+
+        h1 {
+          color: black;
+          font-size: 14px;
+          text-align: center;
+          margin-top: 10px;
+        }
+      }
+    }
   }
 }
 

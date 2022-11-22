@@ -755,6 +755,15 @@ button {
   height: 100%;
   object-fit: cover;
 }
+#team .team .swiper-wrapper .swiper-slide img {
+  border-radius: 50%;
+}
+#team .team .swiper-wrapper .swiper-slide h1 {
+  color: black;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 10px;
+}
 
 #request {
   background: #222222;
