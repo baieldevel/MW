@@ -1,0 +1,1382 @@
+@media (max-width: 1440px) {
+  .container {
+    width: 90%;
+  }
+}
+
+@media (max-width: 1200px) {
+  #car {
+    .car {
+      &--two {
+        flex-wrap: wrap;
+      }
+    }
+  }
+
+  #services {
+    .services {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    button {
+      margin-left: 360px;
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  #technology {
+    .technology {
+      width: 640px;
+    }
+  }
+  #process {
+    .process {
+      flex-direction: column;
+    }
+
+    .space {
+      flex-direction: column;
+    }
+
+    .late {
+      height: 414px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  #header {
+    .header {
+      &--logo {
+        &__nav {
+          display: none;
+        }
+      }
+    }
+  }
+
+  #hero {
+    .hero {
+      &--group {
+        h1 {
+          font-size: 60px;
+        }
+      }
+    }
+  }
+
+  #car {
+    .car {
+      &--two {
+        justify-content: center;
+      }
+    }
+  }
+
+  #services {
+    .services {
+      justify-content: center;
+
+      &--btn {
+        button {
+          width: 280px;
+          margin: 30px 170px;
+        }
+      }
+    }
+
+  }
+
+  #technology {
+    .technology {
+      width: 450px;
+    }
+  }
+
+  #process {
+    .process {
+      flex-direction: column;
+
+      &--two {
+        width: 700px;
+      }
+    }
+
+
+    .space {
+      flex-direction: column;
+
+      &--general {
+        width: 700px;
+      }
+    }
+
+    .late {
+      height: 414px;
+    }
+  }
+
+  #request {
+    .request {
+      flex-direction: column;
+
+      p {
+        padding-bottom: 50px;
+      }
+    }
+  }
+
+  #project {
+    .project {
+      flex-direction: column;
+    }
+  }
+
+}
+
+@media (max-width: 576px) {
+
+  #header {
+    .header {
+      &--logo {
+        &__nav {
+          display: none;
+        }
+      }
+    }
+  }
+
+  #hero {
+    .hero {
+      &--group {
+        &__text {
+          flex-wrap: wrap;
+
+          &--icons {
+            a {
+              font-size: 35px;
+            }
+          }
+        }
+
+        h1 {
+          font-size: 60px;
+        }
+      }
+    }
+  }
+
+  #block {
+    .block {
+      flex-direction: column;
+      gap: 2rem;
+
+    }
+  }
+
+  #car {
+    .car {
+      img {
+        width: 90%;
+      }
+
+      &--two {
+        justify-content: center;
+      }
+    }
+  }
+
+  #services {
+    .services {
+      justify-content: center;
+
+      &--btn {
+        button {
+          margin: 42px 65px
+        }
+      }
+    }
+  }
+
+  #technology {
+    .technology {
+      zoom: 70%;
+      display: contents;
+
+      &--label {
+        text-align: center;
+
+        .frontend {
+          span {
+            font-size: 20px;
+          }
+        }
+
+        .backend {
+          span {
+            font-size: 20px;
+          }
+        }
+
+        .UI-UX {
+          span {
+            font-size: 20px;
+          }
+        }
+
+        .Database {
+          span {
+            font-size: 20px;
+          }
+        }
+      }
+    }
+  }
+
+  #process {
+    .process {
+      flex-direction: column;
+
+      &--block {
+        zoom: 96%;
+      }
+
+      &--two {
+        zoom: 75%;
+      }
+    }
+
+    .space {
+      zoom: 71%;
+
+      &--test {
+        width: 754px;
+      }
+    }
+
+    .late {
+      height: 466px;
+    }
+  }
+
+  #pro {
+    .pro {
+      flex-direction: column;
+
+    }
+  }
+
+  #request {
+    .request {
+      flex-direction: column;
+
+      &--block {
+        zoom: 81%;
+      }
+    }
+
+    #pro {
+      .pro {
+        flex-direction: column;
+      }
+    }
+  }
+
+  #project {
+    .project {
+      flex-direction: column;
+    }
+  }
+
+}
+
+@media (max-width: 450px) {
+
+  #hero {
+    .hero {
+      &--group {
+        h1 {
+          font-size: 50px;
+        }
+
+        p {
+          font-size: 14px;
+        }
+
+        &__text {
+          flex-wrap: wrap;
+
+          h2 {
+            font-size: 12px;
+            margin-bottom: 5px;
+          }
+
+          button {
+            width: 300px;
+            font-size: 14px;
+          }
+
+          &--icons {
+            a {
+              font-size: 30px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  #block {
+    .block {
+      flex-direction: column;
+      gap: 2rem;
+
+    }
+  }
+
+  #car {
+    padding: 25px 0;
+
+    .car {
+      h1 {
+        text-align: center;
+        font-size: 25px;
+      }
+
+      img {
+        width: 90%;
+      }
+
+      &--two {
+        justify-content: center;
+
+        &__general {
+          &--one {
+            &__text {
+              h3 {
+                font-size: 14px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  #services {
+    h1 {
+      font-size: 28px;
+      text-align: center;
+    }
+
+    .services {
+      justify-content: center;
+
+      &--block {
+        width: 90%;
+
+        &__square {
+          width: 84%;
+          height: 58px;
+
+          &--dut {
+            border-top: 10px dotted white;
+          }
+        }
+
+        &--text {
+          h3 {
+            font-size: 19px;
+          }
+        }
+      }
+
+
+      &--btn {
+        text-align: center;
+
+        button {
+          margin: 42px 0;
+          width: 88%;
+          height: 70px;
+        }
+      }
+    }
+  }
+
+  #technology {
+    h1 {
+      font-size: 25px;
+      text-align: center;
+    }
+
+    .technology {
+      width: 822px;
+      zoom: 54%;
+      display: contents;
+
+      &--label {
+        margin-left: 43%;
+
+        .frontend {
+          span {
+            font-size: 20px;
+          }
+        }
+
+        .backend {
+          span {
+            font-size: 20px;
+          }
+        }
+
+        .UI-UX {
+          span {
+            font-size: 20px;
+          }
+        }
+
+        .Database {
+          span {
+            font-size: 20px;
+          }
+        }
+      }
+    }
+  }
+
+  #team {
+    .team {
+      h1 {
+        text-align: center;
+      }
+    }
+  }
+
+  #process {
+    h1 {
+      font-size: 24px;
+    }
+
+    .process {
+      flex-direction: column;
+      zoom: 90%;
+
+      &--block {
+        zoom: 80%;
+      }
+
+      &--two {
+        zoom: 63%;
+
+        &__text {
+          p {
+            font-size: 25px;
+            line-height: 26px;
+            padding: 10px 0 10px 0;
+          }
+
+          h2 {
+            font-size: 20px;
+          }
+
+          ul {
+            li {
+              font-size: 20px;
+            }
+          }
+
+          img {
+            width: 16%;
+          }
+        }
+      }
+    }
+
+    .space {
+      &--general {
+        zoom: 80%;
+
+        &__most {
+          h2 {
+            font-size: 25px;
+            line-height: 28px;
+          }
+        }
+      }
+
+      &--text {
+        ul {
+          li {
+            font-size: 18px;
+            padding: 9px 0;
+            margin: 0 10px;
+          }
+        }
+      }
+
+      &--test {
+        zoom: 103%;
+      }
+    }
+
+    .late {
+      zoom: 77%;
+
+      &--c {
+        h1 {
+          font-size: 32px;
+        }
+      }
+    }
+  }
+
+  #pro {
+    .pro {
+      flex-direction: column;
+
+      &--title {
+        h1 {
+          text-align: center;
+        }
+
+        p {
+          font-size: 18px;
+          line-height: 26px;
+        }
+      }
+    }
+  }
+
+  #request {
+    h1 {
+      text-align: center;
+    }
+
+    .request {
+      flex-direction: column;
+
+
+      p {
+        font-size: 18px;
+      }
+
+      &--block {
+        zoom: 68%;
+
+        button {
+          font-size: 20px;
+        }
+
+        &__input {
+          input {
+            font-size: 16px;
+          }
+        }
+
+        .input {
+          font-size: 18px;
+        }
+      }
+    }
+
+    #pro {
+      .pro {
+        flex-direction: column;
+      }
+    }
+  }
+
+  #project {
+    .project {
+      flex-direction: column;
+
+
+      &--left {
+        h1 {
+          font-size: 35px;
+        }
+
+        button {
+          width: 50%;
+          font-size: 15px;
+        }
+
+        &__icons {
+          p {
+            font-size: 15px;
+          }
+        }
+
+      }
+
+      &--right {
+        .menu {
+          padding: 0 20px;
+
+          h1 {
+            font-size: 18px;
+            padding: 15px 0;
+          }
+
+          p {
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 390px) {
+
+  #hero {
+    .hero {
+      &--group {
+        h1 {
+          font-size: 50px;
+        }
+
+        p {
+          font-size: 14px;
+        }
+
+        &__text {
+          flex-wrap: wrap;
+
+          h2 {
+            font-size: 12px;
+            margin-bottom: 5px;
+          }
+
+          button {
+            width: 300px;
+            font-size: 14px;
+          }
+
+          &--icons {
+            a {
+              font-size: 30px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  #block {
+    .block {
+      flex-direction: column;
+      gap: 2rem;
+
+    }
+  }
+
+  #car {
+    padding: 25px 0;
+
+    .car {
+      h1 {
+        text-align: center;
+        font-size: 25px;
+      }
+
+      img {
+        width: 90%;
+        margin-left: 15px;
+      }
+
+      &--two {
+        justify-content: center;
+
+        &__general {
+          &--one {
+            &__text {
+              h3 {
+                font-size: 14px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  #services {
+    h1 {
+      font-size: 28px;
+      text-align: center;
+    }
+
+    .services {
+      justify-content: center;
+
+      &--block {
+        width: 90%;
+
+        &--text {
+          font-size: 14px;
+          margin: 12px 0 0 0
+        }
+
+        &__square {
+          width: 81%;
+          height: 50px;
+
+          img {
+            width: 15%;
+          }
+
+          &--dut {
+            border-top: 10px dotted white;
+          }
+        }
+
+        &--text {
+          h3 {
+            font-size: 11px;
+          }
+
+          &__price {
+            span {
+              font-size: 11px;
+            }
+          }
+        }
+      }
+
+
+      &--btn {
+        text-align: center;
+
+        button {
+          width: 70%;
+          height: 60px;
+          font-size: 20px
+        }
+      }
+    }
+  }
+
+  #technology {
+    h1 {
+      text-align: center;
+    }
+
+    .technology {
+      width: 450px;
+      zoom: 50%;
+      flex-direction: column;
+
+      &--label {
+        .frontend {
+          span {
+            font-size: 22px;
+          }
+        }
+
+        .backend {
+          span {
+            font-size: 22px;
+          }
+        }
+
+        .UI-UX {
+          span {
+            font-size: 22px;
+          }
+        }
+
+        .Database {
+          span {
+            font-size: 22px;
+          }
+        }
+      }
+    }
+  }
+
+  #team {
+    .team {
+      h1 {
+        text-align: center;
+      }
+    }
+  }
+
+  #process {
+    h1 {
+      font-size: 21px;
+    }
+
+    .process {
+      flex-direction: column;
+      zoom: 90%;
+
+      &--block {
+        zoom: 71%;
+      }
+
+      &--two {
+        zoom: 56%;
+
+        &__text {
+          p {
+            font-size: 23px;
+            line-height: 26px;
+            padding: 10px 0 10px 0;
+          }
+
+          h2 {
+            font-size: 22px;
+          }
+
+          ul {
+            li {
+              font-size: 20px;
+            }
+          }
+
+          img {
+            width: 16%;
+          }
+        }
+      }
+    }
+
+    .space {
+      zoom: 63%;
+
+      &--general {
+
+        &__most {
+          h2 {
+            font-size: 25px;
+            line-height: 28px;
+          }
+        }
+      }
+
+      &--text {
+        ul {
+          li {
+            font-size: 18px;
+            padding: 9px 0;
+            margin: 0 10px;
+          }
+        }
+      }
+
+      &--test {
+        zoom: 103%;
+      }
+    }
+
+    .late {
+      zoom: 60%;
+
+      &--c {
+        h1 {
+          font-size: 32px;
+        }
+      }
+    }
+  }
+
+  #pro {
+    .pro {
+      flex-direction: column;
+
+      &--title {
+        h1 {
+          text-align: center;
+        }
+
+        p {
+          font-size: 18px;
+          line-height: 26px;
+        }
+      }
+    }
+  }
+
+  #request {
+    h1 {
+      text-align: center;
+    }
+
+    .request {
+      flex-direction: column;
+
+
+      p {
+        font-size: 11px;
+      }
+
+      &--block {
+        zoom: 58%;
+
+        p {
+          font-size: 18px;
+        }
+
+        button {
+          font-size: 20px;
+        }
+
+        &__input {
+          input {
+            font-size: 16px;
+          }
+        }
+
+        .input {
+          font-size: 18px;
+        }
+      }
+    }
+
+    #pro {
+      .pro {
+        flex-direction: column;
+      }
+    }
+  }
+
+  #project {
+    .project {
+      flex-direction: column;
+
+
+      &--left {
+        h1 {
+          font-size: 35px;
+        }
+
+        button {
+          width: 50%;
+          font-size: 15px;
+        }
+
+        &__icons {
+          p {
+            font-size: 15px;
+          }
+        }
+
+      }
+
+      &--right {
+        .menu {
+          padding: 0 20px;
+
+          h1 {
+            font-size: 18px;
+            padding: 15px 0;
+          }
+
+          p {
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
+
+}
+
+@media (max-width: 320px) {
+
+  #hero {
+    .hero {
+      &--group {
+        h1 {
+          font-size: 43px;
+          margin-bottom: 10px;
+        }
+
+        p {
+          font-size: 12px;
+        }
+
+        &__text {
+          flex-wrap: wrap;
+
+          h2 {
+            font-size: 13px;
+            margin-bottom: 20px;
+          }
+
+          button {
+            width: 47%;
+            font-size: 9px;
+          }
+
+          &--icons {
+            a {
+              font-size: 20px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  #block {
+    .block {
+      flex-direction: column;
+      gap: 2rem;
+
+      &--one {
+        zoom: 77%;
+      }
+    }
+  }
+
+  #car {
+
+    .car {
+      h1 {
+        text-align: center;
+        font-size: 22px;
+      }
+
+      img {
+        width: 90%;
+        margin-left: 15px;
+      }
+
+      &--two {
+        justify-content: center;
+        grid: none;
+
+        &__general {
+          &--one {
+            &__text {
+              h3 {
+                font-size: 10px;
+                margin-top: -65px
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  #services {
+    h1 {
+      font-size: 25px;
+      text-align: center;
+    }
+
+    .services {
+      justify-content: center;
+
+      &--block {
+        width: 90%;
+
+        &--text {
+          font-size: 14px;
+          margin: 12px 0 0 0;
+
+          h2 {
+            font-size: 17px;
+          }
+
+          p {
+            font-size: 12px;
+          }
+        }
+
+        &__square {
+          width: 77%;
+          height: 40px;
+
+          img {
+            width: 15%;
+          }
+
+          &--dut {
+            border-top: 9px dotted white;
+          }
+        }
+
+        &--text {
+          h3 {
+            font-size: 7px;
+          }
+
+          &__price {
+            span {
+              font-size: 7px;
+            }
+          }
+        }
+      }
+
+      &--btn {
+        text-align: center;
+
+        button {
+          width: 60%;
+          height: 50px;
+          font-size: 15px;
+        }
+      }
+    }
+  }
+
+  #technology {
+    h1 {
+      text-align: center;
+    }
+
+    .technology {
+      width: 450px;
+      zoom: 40% !important;
+      flex-direction: column;
+
+
+      &--label {
+        margin-left: 0;
+
+        .frontend {
+          span {
+            font-size: 22px;
+          }
+        }
+
+        .backend {
+          span {
+            font-size: 22px;
+          }
+        }
+
+        .UI-UX {
+          span {
+            font-size: 22px;
+          }
+        }
+
+        .Database {
+          span {
+            font-size: 22px;
+          }
+        }
+      }
+    }
+  }
+
+  #team {
+    .team {
+      h1 {
+        text-align: center;
+      }
+    }
+  }
+
+  #process {
+    h1 {
+      font-size: 17px;
+    }
+
+    .process {
+      flex-direction: column;
+      zoom: 90%;
+
+      &--block {
+        zoom: 60%;
+      }
+
+      &--two {
+        zoom: 47%;
+
+        &__text {
+          p {
+            font-size: 23px;
+            line-height: 26px;
+            padding: 10px 0 10px 0;
+          }
+
+          h2 {
+            font-size: 22px;
+          }
+
+          ul {
+            font-size: 20px;
+
+            li {
+              font-size: 20px;
+            }
+          }
+
+          img {
+            width: 14%;
+          }
+        }
+      }
+    }
+
+    .space {
+      zoom: 45%;
+
+      &--general {
+        zoom: 93%;
+
+        &__most {
+          h2 {
+            font-size: 25px;
+            line-height: 28px;
+          }
+        }
+      }
+
+      &--text {
+        ul {
+          li {
+            font-size: 18px;
+            padding: 9px 0;
+            margin: 0 10px;
+          }
+        }
+      }
+
+      &--test {
+        zoom: 86%;
+      }
+    }
+
+    .late {
+      zoom: 56%;
+
+      &--c {
+        h1 {
+          font-size: 32px;
+        }
+      }
+    }
+  }
+
+  #pro {
+    .pro {
+      flex-direction: column;
+
+      &--mb {
+        margin-top: 30px;
+
+        img {
+          width: 80%;
+          margin-left: 26px;
+        }
+      }
+
+      &--title {
+        h1 {
+          text-align: center;
+          font-size: 25px;
+        }
+
+        p {
+          font-size: 11px;
+          line-height: 25px;
+        }
+      }
+    }
+  }
+
+  #request {
+    h1 {
+      text-align: center;
+      font-size: 22px;
+    }
+
+    .request {
+      flex-direction: column;
+
+
+      p {
+        font-size: 9px;
+      }
+
+      &--block {
+        zoom: 49%;
+
+        p {
+          font-size: 19px;
+          line-height: 31px;
+        }
+
+        button {
+          font-size: 20px;
+        }
+
+        &__input {
+          input {
+            font-size: 16px;
+          }
+        }
+
+        .input {
+          font-size: 18px;
+        }
+      }
+    }
+
+    #pro {
+      .pro {
+        flex-direction: column;
+      }
+    }
+  }
+
+  #project {
+    .project {
+      flex-direction: column;
+
+
+      &--left {
+        h1 {
+          font-size: 28px;
+        }
+
+        span {
+          font-size: 16px;
+        }
+
+        button {
+          width: 40%;
+          font-size: 10px;
+          height: 40px;
+        }
+
+        &__icons {
+          ion-icon {
+            width: 15px;
+          }
+
+          p {
+            font-size: 11px;
+          }
+        }
+
+      }
+
+      &--right {
+        .menu {
+          padding: 0 14px;
+
+          h1 {
+            font-size: 13px;
+          }
+
+          p {
+            font-size: 8px;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,820 @@
+@media (max-width: 1440px) {
+  .container {
+    width: 90%;
+  }
+}
+@media (max-width: 1200px) {
+  #car .car--two {
+    flex-wrap: wrap;
+  }
+  #services .services {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #services button {
+    margin-left: 360px;
+  }
+}
+@media (max-width: 992px) {
+  #technology .technology {
+    width: 640px;
+  }
+  #process .process {
+    flex-direction: column;
+  }
+  #process .space {
+    flex-direction: column;
+  }
+  #process .late {
+    height: 414px;
+  }
+}
+@media (max-width: 768px) {
+  #header .header--logo__nav {
+    display: none;
+  }
+  #hero .hero--group h1 {
+    font-size: 60px;
+  }
+  #car .car--two {
+    justify-content: center;
+  }
+  #services .services {
+    justify-content: center;
+  }
+  #services .services--btn button {
+    width: 280px;
+    margin: 30px 170px;
+  }
+  #technology .technology {
+    width: 450px;
+  }
+  #process .process {
+    flex-direction: column;
+  }
+  #process .process--two {
+    width: 700px;
+  }
+  #process .space {
+    flex-direction: column;
+  }
+  #process .space--general {
+    width: 700px;
+  }
+  #process .late {
+    height: 414px;
+  }
+  #request .request {
+    flex-direction: column;
+  }
+  #request .request p {
+    padding-bottom: 50px;
+  }
+  #project .project {
+    flex-direction: column;
+  }
+}
+@media (max-width: 576px) {
+  #header .header--logo__nav {
+    display: none;
+  }
+  #hero .hero--group__text {
+    flex-wrap: wrap;
+  }
+  #hero .hero--group__text--icons a {
+    font-size: 35px;
+  }
+  #hero .hero--group h1 {
+    font-size: 60px;
+  }
+  #block .block {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  #car .car img {
+    width: 90%;
+  }
+  #car .car--two {
+    justify-content: center;
+  }
+  #services .services {
+    justify-content: center;
+  }
+  #services .services--btn button {
+    margin: 42px 65px;
+  }
+  #technology .technology {
+    zoom: 70%;
+    display: contents;
+  }
+  #technology .technology--label {
+    text-align: center;
+  }
+  #technology .technology--label .frontend span {
+    font-size: 20px;
+  }
+  #technology .technology--label .backend span {
+    font-size: 20px;
+  }
+  #technology .technology--label .UI-UX span {
+    font-size: 20px;
+  }
+  #technology .technology--label .Database span {
+    font-size: 20px;
+  }
+  #process .process {
+    flex-direction: column;
+  }
+  #process .process--block {
+    zoom: 96%;
+  }
+  #process .process--two {
+    zoom: 75%;
+  }
+  #process .space {
+    zoom: 71%;
+  }
+  #process .space--test {
+    width: 754px;
+  }
+  #process .late {
+    height: 466px;
+  }
+  #pro .pro {
+    flex-direction: column;
+  }
+  #request .request {
+    flex-direction: column;
+  }
+  #request .request--block {
+    zoom: 81%;
+  }
+  #request #pro .pro {
+    flex-direction: column;
+  }
+  #project .project {
+    flex-direction: column;
+  }
+}
+@media (max-width: 450px) {
+  #hero .hero--group h1 {
+    font-size: 50px;
+  }
+  #hero .hero--group p {
+    font-size: 14px;
+  }
+  #hero .hero--group__text {
+    flex-wrap: wrap;
+  }
+  #hero .hero--group__text h2 {
+    font-size: 12px;
+    margin-bottom: 5px;
+  }
+  #hero .hero--group__text button {
+    width: 300px;
+    font-size: 14px;
+  }
+  #hero .hero--group__text--icons a {
+    font-size: 30px;
+  }
+  #block .block {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  #car {
+    padding: 25px 0;
+  }
+  #car .car h1 {
+    text-align: center;
+    font-size: 25px;
+  }
+  #car .car img {
+    width: 90%;
+  }
+  #car .car--two {
+    justify-content: center;
+  }
+  #car .car--two__general--one__text h3 {
+    font-size: 14px;
+  }
+  #services h1 {
+    font-size: 28px;
+    text-align: center;
+  }
+  #services .services {
+    justify-content: center;
+  }
+  #services .services--block {
+    width: 90%;
+  }
+  #services .services--block__square {
+    width: 84%;
+    height: 58px;
+  }
+  #services .services--block__square--dut {
+    border-top: 10px dotted white;
+  }
+  #services .services--block--text h3 {
+    font-size: 19px;
+  }
+  #services .services--btn {
+    text-align: center;
+  }
+  #services .services--btn button {
+    margin: 42px 0;
+    width: 88%;
+    height: 70px;
+  }
+  #technology h1 {
+    font-size: 25px;
+    text-align: center;
+  }
+  #technology .technology {
+    width: 822px;
+    zoom: 54%;
+    display: contents;
+  }
+  #technology .technology--label {
+    margin-left: 43%;
+  }
+  #technology .technology--label .frontend span {
+    font-size: 20px;
+  }
+  #technology .technology--label .backend span {
+    font-size: 20px;
+  }
+  #technology .technology--label .UI-UX span {
+    font-size: 20px;
+  }
+  #technology .technology--label .Database span {
+    font-size: 20px;
+  }
+  #team .team h1 {
+    text-align: center;
+  }
+  #process h1 {
+    font-size: 24px;
+  }
+  #process .process {
+    flex-direction: column;
+    zoom: 90%;
+  }
+  #process .process--block {
+    zoom: 80%;
+  }
+  #process .process--two {
+    zoom: 63%;
+  }
+  #process .process--two__text p {
+    font-size: 25px;
+    line-height: 26px;
+    padding: 10px 0 10px 0;
+  }
+  #process .process--two__text h2 {
+    font-size: 20px;
+  }
+  #process .process--two__text ul li {
+    font-size: 20px;
+  }
+  #process .process--two__text img {
+    width: 16%;
+  }
+  #process .space--general {
+    zoom: 80%;
+  }
+  #process .space--general__most h2 {
+    font-size: 25px;
+    line-height: 28px;
+  }
+  #process .space--text ul li {
+    font-size: 18px;
+    padding: 9px 0;
+    margin: 0 10px;
+  }
+  #process .space--test {
+    zoom: 103%;
+  }
+  #process .late {
+    zoom: 77%;
+  }
+  #process .late--c h1 {
+    font-size: 32px;
+  }
+  #pro .pro {
+    flex-direction: column;
+  }
+  #pro .pro--title h1 {
+    text-align: center;
+  }
+  #pro .pro--title p {
+    font-size: 18px;
+    line-height: 26px;
+  }
+  #request h1 {
+    text-align: center;
+  }
+  #request .request {
+    flex-direction: column;
+  }
+  #request .request p {
+    font-size: 18px;
+  }
+  #request .request--block {
+    zoom: 68%;
+  }
+  #request .request--block button {
+    font-size: 20px;
+  }
+  #request .request--block__input input {
+    font-size: 16px;
+  }
+  #request .request--block .input {
+    font-size: 18px;
+  }
+  #request #pro .pro {
+    flex-direction: column;
+  }
+  #project .project {
+    flex-direction: column;
+  }
+  #project .project--left h1 {
+    font-size: 35px;
+  }
+  #project .project--left button {
+    width: 50%;
+    font-size: 15px;
+  }
+  #project .project--left__icons p {
+    font-size: 15px;
+  }
+  #project .project--right .menu {
+    padding: 0 20px;
+  }
+  #project .project--right .menu h1 {
+    font-size: 18px;
+    padding: 15px 0;
+  }
+  #project .project--right .menu p {
+    font-size: 12px;
+  }
+}
+@media (max-width: 390px) {
+  #hero .hero--group h1 {
+    font-size: 50px;
+  }
+  #hero .hero--group p {
+    font-size: 14px;
+  }
+  #hero .hero--group__text {
+    flex-wrap: wrap;
+  }
+  #hero .hero--group__text h2 {
+    font-size: 12px;
+    margin-bottom: 5px;
+  }
+  #hero .hero--group__text button {
+    width: 300px;
+    font-size: 14px;
+  }
+  #hero .hero--group__text--icons a {
+    font-size: 30px;
+  }
+  #block .block {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  #car {
+    padding: 25px 0;
+  }
+  #car .car h1 {
+    text-align: center;
+    font-size: 25px;
+  }
+  #car .car img {
+    width: 90%;
+    margin-left: 15px;
+  }
+  #car .car--two {
+    justify-content: center;
+  }
+  #car .car--two__general--one__text h3 {
+    font-size: 14px;
+  }
+  #services h1 {
+    font-size: 28px;
+    text-align: center;
+  }
+  #services .services {
+    justify-content: center;
+  }
+  #services .services--block {
+    width: 90%;
+  }
+  #services .services--block--text {
+    font-size: 14px;
+    margin: 12px 0 0 0;
+  }
+  #services .services--block__square {
+    width: 81%;
+    height: 50px;
+  }
+  #services .services--block__square img {
+    width: 15%;
+  }
+  #services .services--block__square--dut {
+    border-top: 10px dotted white;
+  }
+  #services .services--block--text h3 {
+    font-size: 11px;
+  }
+  #services .services--block--text__price span {
+    font-size: 11px;
+  }
+  #services .services--btn {
+    text-align: center;
+  }
+  #services .services--btn button {
+    width: 70%;
+    height: 60px;
+    font-size: 20px;
+  }
+  #technology h1 {
+    text-align: center;
+  }
+  #technology .technology {
+    width: 450px;
+    zoom: 50%;
+    flex-direction: column;
+  }
+  #technology .technology--label .frontend span {
+    font-size: 22px;
+  }
+  #technology .technology--label .backend span {
+    font-size: 22px;
+  }
+  #technology .technology--label .UI-UX span {
+    font-size: 22px;
+  }
+  #technology .technology--label .Database span {
+    font-size: 22px;
+  }
+  #team .team h1 {
+    text-align: center;
+  }
+  #process h1 {
+    font-size: 21px;
+  }
+  #process .process {
+    flex-direction: column;
+    zoom: 90%;
+  }
+  #process .process--block {
+    zoom: 71%;
+  }
+  #process .process--two {
+    zoom: 56%;
+  }
+  #process .process--two__text p {
+    font-size: 23px;
+    line-height: 26px;
+    padding: 10px 0 10px 0;
+  }
+  #process .process--two__text h2 {
+    font-size: 22px;
+  }
+  #process .process--two__text ul li {
+    font-size: 20px;
+  }
+  #process .process--two__text img {
+    width: 16%;
+  }
+  #process .space {
+    zoom: 63%;
+  }
+  #process .space--general__most h2 {
+    font-size: 25px;
+    line-height: 28px;
+  }
+  #process .space--text ul li {
+    font-size: 18px;
+    padding: 9px 0;
+    margin: 0 10px;
+  }
+  #process .space--test {
+    zoom: 103%;
+  }
+  #process .late {
+    zoom: 60%;
+  }
+  #process .late--c h1 {
+    font-size: 32px;
+  }
+  #pro .pro {
+    flex-direction: column;
+  }
+  #pro .pro--title h1 {
+    text-align: center;
+  }
+  #pro .pro--title p {
+    font-size: 18px;
+    line-height: 26px;
+  }
+  #request h1 {
+    text-align: center;
+  }
+  #request .request {
+    flex-direction: column;
+  }
+  #request .request p {
+    font-size: 11px;
+  }
+  #request .request--block {
+    zoom: 58%;
+  }
+  #request .request--block p {
+    font-size: 18px;
+  }
+  #request .request--block button {
+    font-size: 20px;
+  }
+  #request .request--block__input input {
+    font-size: 16px;
+  }
+  #request .request--block .input {
+    font-size: 18px;
+  }
+  #request #pro .pro {
+    flex-direction: column;
+  }
+  #project .project {
+    flex-direction: column;
+  }
+  #project .project--left h1 {
+    font-size: 35px;
+  }
+  #project .project--left button {
+    width: 50%;
+    font-size: 15px;
+  }
+  #project .project--left__icons p {
+    font-size: 15px;
+  }
+  #project .project--right .menu {
+    padding: 0 20px;
+  }
+  #project .project--right .menu h1 {
+    font-size: 18px;
+    padding: 15px 0;
+  }
+  #project .project--right .menu p {
+    font-size: 12px;
+  }
+}
+@media (max-width: 320px) {
+  #hero .hero--group h1 {
+    font-size: 43px;
+    margin-bottom: 10px;
+  }
+  #hero .hero--group p {
+    font-size: 12px;
+  }
+  #hero .hero--group__text {
+    flex-wrap: wrap;
+  }
+  #hero .hero--group__text h2 {
+    font-size: 13px;
+    margin-bottom: 20px;
+  }
+  #hero .hero--group__text button {
+    width: 47%;
+    font-size: 9px;
+  }
+  #hero .hero--group__text--icons a {
+    font-size: 20px;
+  }
+  #block .block {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  #block .block--one {
+    zoom: 77%;
+  }
+  #car .car h1 {
+    text-align: center;
+    font-size: 22px;
+  }
+  #car .car img {
+    width: 90%;
+    margin-left: 15px;
+  }
+  #car .car--two {
+    justify-content: center;
+    grid: none;
+  }
+  #car .car--two__general--one__text h3 {
+    font-size: 10px;
+    margin-top: -65px;
+  }
+  #services h1 {
+    font-size: 25px;
+    text-align: center;
+  }
+  #services .services {
+    justify-content: center;
+  }
+  #services .services--block {
+    width: 90%;
+  }
+  #services .services--block--text {
+    font-size: 14px;
+    margin: 12px 0 0 0;
+  }
+  #services .services--block--text h2 {
+    font-size: 17px;
+  }
+  #services .services--block--text p {
+    font-size: 12px;
+  }
+  #services .services--block__square {
+    width: 77%;
+    height: 40px;
+  }
+  #services .services--block__square img {
+    width: 15%;
+  }
+  #services .services--block__square--dut {
+    border-top: 9px dotted white;
+  }
+  #services .services--block--text h3 {
+    font-size: 7px;
+  }
+  #services .services--block--text__price span {
+    font-size: 7px;
+  }
+  #services .services--btn {
+    text-align: center;
+  }
+  #services .services--btn button {
+    width: 60%;
+    height: 50px;
+    font-size: 15px;
+  }
+  #technology h1 {
+    text-align: center;
+  }
+  #technology .technology {
+    width: 450px;
+    zoom: 40% !important;
+    flex-direction: column;
+  }
+  #technology .technology--label {
+    margin-left: 0;
+  }
+  #technology .technology--label .frontend span {
+    font-size: 22px;
+  }
+  #technology .technology--label .backend span {
+    font-size: 22px;
+  }
+  #technology .technology--label .UI-UX span {
+    font-size: 22px;
+  }
+  #technology .technology--label .Database span {
+    font-size: 22px;
+  }
+  #team .team h1 {
+    text-align: center;
+  }
+  #process h1 {
+    font-size: 17px;
+  }
+  #process .process {
+    flex-direction: column;
+    zoom: 90%;
+  }
+  #process .process--block {
+    zoom: 60%;
+  }
+  #process .process--two {
+    zoom: 47%;
+  }
+  #process .process--two__text p {
+    font-size: 23px;
+    line-height: 26px;
+    padding: 10px 0 10px 0;
+  }
+  #process .process--two__text h2 {
+    font-size: 22px;
+  }
+  #process .process--two__text ul {
+    font-size: 20px;
+  }
+  #process .process--two__text ul li {
+    font-size: 20px;
+  }
+  #process .process--two__text img {
+    width: 14%;
+  }
+  #process .space {
+    zoom: 45%;
+  }
+  #process .space--general {
+    zoom: 93%;
+  }
+  #process .space--general__most h2 {
+    font-size: 25px;
+    line-height: 28px;
+  }
+  #process .space--text ul li {
+    font-size: 18px;
+    padding: 9px 0;
+    margin: 0 10px;
+  }
+  #process .space--test {
+    zoom: 86%;
+  }
+  #process .late {
+    zoom: 56%;
+  }
+  #process .late--c h1 {
+    font-size: 32px;
+  }
+  #pro .pro {
+    flex-direction: column;
+  }
+  #pro .pro--mb {
+    margin-top: 30px;
+  }
+  #pro .pro--mb img {
+    width: 80%;
+    margin-left: 26px;
+  }
+  #pro .pro--title h1 {
+    text-align: center;
+    font-size: 25px;
+  }
+  #pro .pro--title p {
+    font-size: 11px;
+    line-height: 25px;
+  }
+  #request h1 {
+    text-align: center;
+    font-size: 22px;
+  }
+  #request .request {
+    flex-direction: column;
+  }
+  #request .request p {
+    font-size: 9px;
+  }
+  #request .request--block {
+    zoom: 49%;
+  }
+  #request .request--block p {
+    font-size: 19px;
+    line-height: 31px;
+  }
+  #request .request--block button {
+    font-size: 20px;
+  }
+  #request .request--block__input input {
+    font-size: 16px;
+  }
+  #request .request--block .input {
+    font-size: 18px;
+  }
+  #request #pro .pro {
+    flex-direction: column;
+  }
+  #project .project {
+    flex-direction: column;
+  }
+  #project .project--left h1 {
+    font-size: 28px;
+  }
+  #project .project--left span {
+    font-size: 16px;
+  }
+  #project .project--left button {
+    width: 40%;
+    font-size: 10px;
+    height: 40px;
+  }
+  #project .project--left__icons ion-icon {
+    width: 15px;
+  }
+  #project .project--left__icons p {
+    font-size: 11px;
+  }
+  #project .project--right .menu {
+    padding: 0 14px;
+  }
+  #project .project--right .menu h1 {
+    font-size: 13px;
+  }
+  #project .project--right .menu p {
+    font-size: 8px;
+  }
+}
+
+/*# sourceMappingURL=media.css.map */
