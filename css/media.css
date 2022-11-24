@@ -15,6 +15,50 @@
     margin-left: 360px;
   }
 }
+@media (max-width: 1024px) {
+  #header .header--logo__nav a {
+    padding: 0 2px;
+  }
+  #header .header--logo__nav button {
+    font-size: 15px;
+    padding: 10px 10px;
+  }
+  #hero .hero--group h1 {
+    font-size: 110px;
+  }
+  #block .block--one p {
+    font-size: 13px;
+  }
+  #car .car--two {
+    flex-wrap: wrap;
+  }
+  #services .services {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #services button {
+    margin-left: 360px;
+  }
+  #process .process {
+    gap: 10px;
+  }
+  #process .space {
+    gap: 10px;
+    flex-direction: column;
+  }
+  #process .late--c p {
+    font-size: 16px;
+  }
+  #process .late--c ul li {
+    font-size: 25px;
+  }
+  #process .late--c ul li p {
+    font-size: 17px;
+  }
+  #technology .technology {
+    padding: 0 0;
+  }
+}
 @media (max-width: 992px) {
   #technology .technology {
     width: 640px;
@@ -79,17 +123,33 @@
     display: none;
   }
   #hero .hero--group__text {
-    flex-wrap: wrap;
+    align-items: start;
+    flex-direction: column;
+  }
+  #hero .hero--group__text button {
+    width: 200px;
+    height: 45px;
+    border-radius: 15px;
+    font-size: 14px;
+  }
+  #hero .hero--group__text h2 {
+    font-size: 11px;
   }
   #hero .hero--group__text--icons a {
-    font-size: 35px;
+    font-size: 30px;
   }
   #hero .hero--group h1 {
-    font-size: 60px;
+    font-size: 55px;
+  }
+  #hero .hero--group p {
+    font-size: 15px;
   }
   #block .block {
     flex-direction: column;
     gap: 2rem;
+  }
+  #block .block__one {
+    width: 90%;
   }
   #car .car img {
     width: 90%;
@@ -126,22 +186,81 @@
     flex-direction: column;
   }
   #process .process--block {
-    zoom: 96%;
+    width: 90%;
   }
   #process .process--two {
-    zoom: 75%;
+    width: 90%;
   }
-  #process .space {
-    zoom: 71%;
+  #process .process--two__text img {
+    width: 20%;
+  }
+  #process .process--two__text h1 {
+    font-size: 32px;
+    padding-top: 40px;
+  }
+  #process .process--two__text p {
+    font-size: 15px;
+    line-height: 20px;
+    padding: 0 0 0 0;
+  }
+  #process .process--two__text ul li {
+    padding: 0 0;
+    margin: 0 0;
+  }
+  #process .space--general {
+    width: 90%;
+  }
+  #process .space--general__most img {
+    width: 90%;
+    margin-left: 25px;
+    margin-top: 45px;
+  }
+  #process .space--general__most h2 {
+    font-size: 15px;
+    line-height: 20px;
+    margin: 0 40px;
   }
   #process .space--test {
-    width: 754px;
+    width: 90%;
+  }
+  #process .space--test__text p {
+    font-size: 15px;
+    width: 90%;
+    padding: 0 0 0 0;
+  }
+  #process .space--test__text ul li {
+    margin: 0 17px;
+  }
+  #process .space--test__text img {
+    width: 90%;
+    margin-left: 0;
   }
   #process .late {
-    height: 466px;
+    width: 90%;
+    margin-left: 28px;
+  }
+  #process .late--c h1 {
+    font-size: 26px;
+  }
+  #process .late--c p {
+    font-size: 12px;
+    margin-left: 20px;
+  }
+  #process .late--c ul li {
+    font-size: 20px;
+    margin: 0 15px;
+  }
+  #process .late--c ul li p {
+    font-size: 15px;
   }
   #pro .pro {
     flex-direction: column;
+  }
+  #pro .pro--title p {
+    font-size: 11px;
+  }
+  #pro .pro--mb img {
+    width: 90%;
   }
   #request .request {
     flex-direction: column;
@@ -154,6 +273,30 @@
   }
   #project .project {
     flex-direction: column;
+  }
+  #project .project--right .menu h1 {
+    font-size: 20px;
+    padding-bottom: 20px;
+  }
+  #project .project--right .menu p {
+    font-size: 11px;
+    padding: 5px 0;
+  }
+  #project .project--left h1 {
+    font-size: 40px;
+  }
+  #project .project--left button {
+    font-size: 20px;
+    width: 200px;
+    height: 45px;
+    border-radius: 15px;
+  }
+  #project .project--left span {
+    font-size: 15px;
+    padding-bottom: 10px;
+  }
+  #project .project--left__icons p {
+    font-size: 15px;
   }
 }
 @media (max-width: 450px) {
@@ -229,13 +372,11 @@
     font-size: 25px;
     text-align: center;
   }
-  #technology .technology {
-    width: 822px;
-    zoom: 54%;
-    display: contents;
+  #technology .technology--tabs {
+    width: 90%;
   }
   #technology .technology--label {
-    margin-left: 43%;
+    margin-left: 0;
   }
   #technology .technology--label .frontend span {
     font-size: 20px;
@@ -257,48 +398,80 @@
   }
   #process .process {
     flex-direction: column;
-    zoom: 90%;
+    width: 90%;
   }
   #process .process--block {
-    zoom: 80%;
+    width: 90%;
+  }
+  #process .process--block__text p {
+    width: 90%;
+    /* height: 120px; */
+    font-size: 12px;
+    line-height: 22px;
+  }
+  #process .process--block__text h1 {
+    font-size: 28px;
+    padding: 20px 0 8px 20px;
+  }
+  #process .process--block__text h2 {
+    font-size: 20px;
+  }
+  #process .process--block__text ul li {
+    font-size: 12px;
+  }
+  #process .process--block__text img {
+    width: 90%;
   }
   #process .process--two {
-    zoom: 63%;
+    width: 90%;
   }
-  #process .process--two__text p {
-    font-size: 25px;
-    line-height: 26px;
-    padding: 10px 0 10px 0;
-  }
-  #process .process--two__text h2 {
-    font-size: 20px;
-  }
-  #process .process--two__text ul li {
-    font-size: 20px;
-  }
-  #process .process--two__text img {
+  #process .process--two img {
     width: 16%;
   }
+  #process .process--two__text h1 {
+    font-size: 20px;
+    padding-top: 40px;
+  }
+  #process .process--two__text p {
+    font-size: 12px;
+    line-height: 20px;
+    padding: 0 0 0 0;
+  }
+  #process .process--two__text p img {
+    width: 16%;
+  }
+  #process .process--two__text h2 {
+    font-size: 12px;
+  }
+  #process .process--two__text ul li {
+    font-size: 14px;
+  }
   #process .space--general {
-    zoom: 80%;
+    width: 90%;
+  }
+  #process .space--general__most h1 {
+    font-size: 28px;
   }
   #process .space--general__most h2 {
-    font-size: 25px;
-    line-height: 28px;
+    font-size: 14px;
+    line-height: 22px;
   }
-  #process .space--text ul li {
+  #process .space--test {
+    width: 90%;
+  }
+  #process .space--test__text h1 {
+    font-size: 28px;
+  }
+  #process .space--test__text ul li {
     font-size: 18px;
     padding: 9px 0;
     margin: 0 10px;
   }
-  #process .space--test {
-    zoom: 103%;
-  }
   #process .late {
-    zoom: 77%;
+    width: 90%;
   }
   #process .late--c h1 {
-    font-size: 32px;
+    font-size: 20px;
   }
   #pro .pro {
     flex-direction: column;
@@ -307,8 +480,8 @@
     text-align: center;
   }
   #pro .pro--title p {
-    font-size: 18px;
-    line-height: 26px;
+    font-size: 12px;
+    line-height: 20px;
   }
   #request h1 {
     text-align: center;
@@ -317,19 +490,30 @@
     flex-direction: column;
   }
   #request .request p {
-    font-size: 18px;
+    font-size: 13px;
   }
   #request .request--block {
-    zoom: 68%;
+    width: 90%;
   }
   #request .request--block button {
-    font-size: 20px;
+    font-size: 15px;
+    width: 90%;
+    height: 15%;
+    margin: 0 15px;
   }
   #request .request--block__input input {
-    font-size: 16px;
+    font-size: 13px;
+    margin: 15px 10px;
+    font-weight: 400;
+    padding-left: 10px;
+    width: 184px;
+    height: 40px;
   }
   #request .request--block .input {
-    font-size: 18px;
+    font-size: 14px;
+    width: 90%;
+    height: 40px;
+    margin-bottom: 30px;
   }
   #request #pro .pro {
     flex-direction: column;
@@ -360,24 +544,24 @@
 }
 @media (max-width: 390px) {
   #hero .hero--group h1 {
-    font-size: 50px;
+    font-size: 45px;
   }
   #hero .hero--group p {
-    font-size: 14px;
+    font-size: 12px;
   }
   #hero .hero--group__text {
     flex-wrap: wrap;
   }
   #hero .hero--group__text h2 {
-    font-size: 12px;
-    margin-bottom: 5px;
+    font-size: 11px;
+    margin-bottom: 20px;
   }
   #hero .hero--group__text button {
-    width: 300px;
-    font-size: 14px;
+    width: 200px;
+    font-size: 13px;
   }
   #hero .hero--group__text--icons a {
-    font-size: 30px;
+    font-size: 20px;
   }
   #block .block {
     flex-direction: column;
@@ -392,7 +576,7 @@
   }
   #car .car img {
     width: 90%;
-    margin-left: 15px;
+    margin-left: 16px;
   }
   #car .car--two {
     justify-content: center;
@@ -410,104 +594,148 @@
   #services .services--block {
     width: 90%;
   }
-  #services .services--block--text {
-    font-size: 14px;
-    margin: 12px 0 0 0;
-  }
   #services .services--block__square {
     width: 81%;
-    height: 50px;
-  }
-  #services .services--block__square img {
-    width: 15%;
+    height: 58px;
   }
   #services .services--block__square--dut {
     border-top: 10px dotted white;
   }
   #services .services--block--text h3 {
-    font-size: 11px;
+    font-size: 14px;
+  }
+  #services .services--block--text h2 {
+    font-size: 22px;
+    line-height: 30px;
+  }
+  #services .services--block--text p {
+    font-size: 14px;
+    line-height: 22px;
+    margin: 12px 0 0 0;
   }
   #services .services--block--text__price span {
-    font-size: 11px;
+    font-size: 14px;
   }
   #services .services--btn {
     text-align: center;
   }
   #services .services--btn button {
-    width: 70%;
+    margin: 30px 0;
+    width: 65%;
     height: 60px;
-    font-size: 20px;
+    border-radius: 20px;
+    font-size: 19px;
   }
   #technology h1 {
+    font-size: 25px;
     text-align: center;
   }
-  #technology .technology {
-    width: 450px;
-    zoom: 50%;
-    flex-direction: column;
+  #technology .technology--tabs {
+    width: 90%;
+  }
+  #technology .technology--label {
+    margin-left: 0;
   }
   #technology .technology--label .frontend span {
-    font-size: 22px;
+    font-size: 20px;
   }
   #technology .technology--label .backend span {
-    font-size: 22px;
+    font-size: 20px;
   }
   #technology .technology--label .UI-UX span {
-    font-size: 22px;
+    font-size: 20px;
   }
   #technology .technology--label .Database span {
-    font-size: 22px;
+    font-size: 20px;
   }
   #team .team h1 {
     text-align: center;
   }
   #process h1 {
-    font-size: 21px;
+    font-size: 20px;
   }
   #process .process {
     flex-direction: column;
-    zoom: 90%;
+    width: 90%;
   }
   #process .process--block {
-    zoom: 71%;
+    width: 90%;
   }
-  #process .process--two {
-    zoom: 56%;
+  #process .process--block__text p {
+    width: 90%;
+    /* height: 120px; */
+    font-size: 12px;
+    line-height: 22px;
   }
-  #process .process--two__text p {
-    font-size: 23px;
-    line-height: 26px;
-    padding: 10px 0 10px 0;
+  #process .process--block__text h1 {
+    font-size: 28px;
+    padding: 20px 0 8px 20px;
   }
-  #process .process--two__text h2 {
-    font-size: 22px;
-  }
-  #process .process--two__text ul li {
+  #process .process--block__text h2 {
     font-size: 20px;
   }
-  #process .process--two__text img {
+  #process .process--block__text ul li {
+    font-size: 12px;
+  }
+  #process .process--block__text img {
+    width: 90%;
+  }
+  #process .process--two {
+    width: 90%;
+  }
+  #process .process--two img {
+    display: none;
+  }
+  #process .process--two__text h1 {
+    font-size: 20px;
+    padding-top: 40px;
+  }
+  #process .process--two__text p {
+    font-size: 12px;
+    line-height: 20px;
+    padding: 0 0 0 0;
+  }
+  #process .process--two__text p img {
     width: 16%;
   }
-  #process .space {
-    zoom: 63%;
+  #process .process--two__text h2 {
+    font-size: 12px;
+  }
+  #process .process--two__text ul li {
+    font-size: 14px;
+  }
+  #process .space--general {
+    width: 90%;
+  }
+  #process .space--general__most h1 {
+    font-size: 28px;
+  }
+  #process .space--general__most h1 img {
+    margin-left: 17px;
   }
   #process .space--general__most h2 {
-    font-size: 25px;
-    line-height: 28px;
-  }
-  #process .space--text ul li {
-    font-size: 18px;
-    padding: 9px 0;
-    margin: 0 10px;
+    font-size: 12px;
+    line-height: 20px;
   }
   #process .space--test {
-    zoom: 103%;
+    width: 90%;
+  }
+  #process .space--test__text h1 {
+    font-size: 28px;
+  }
+  #process .space--test__text ul li {
+    font-size: 15px;
+    padding: 9px 0;
+    margin: 0 0;
   }
   #process .late {
-    zoom: 60%;
+    width: 90%;
   }
   #process .late--c h1 {
-    font-size: 32px;
+    font-size: 20px;
+  }
+  #process .late--c ul li p {
+    font-size: 13px;
   }
   #pro .pro {
     flex-direction: column;
@@ -516,11 +744,12 @@
     text-align: center;
   }
   #pro .pro--title p {
-    font-size: 18px;
-    line-height: 26px;
+    font-size: 10px;
+    line-height: 17px;
   }
   #request h1 {
     text-align: center;
+    font-size: 25px;
   }
   #request .request {
     flex-direction: column;
@@ -529,19 +758,22 @@
     font-size: 11px;
   }
   #request .request--block {
-    zoom: 58%;
-  }
-  #request .request--block p {
-    font-size: 18px;
+    width: 90%;
   }
   #request .request--block button {
-    font-size: 20px;
+    height: 10%;
+    margin: 0 15px;
   }
   #request .request--block__input input {
-    font-size: 16px;
+    font-size: 10px;
+    width: 156px;
+    height: 38px;
   }
   #request .request--block .input {
-    font-size: 18px;
+    font-size: 14px;
+    width: 90%;
+    height: 40px;
+    margin-bottom: 30px;
   }
   #request #pro .pro {
     flex-direction: column;
@@ -550,44 +782,48 @@
     flex-direction: column;
   }
   #project .project--left h1 {
-    font-size: 35px;
+    font-size: 30px;
   }
   #project .project--left button {
-    width: 50%;
+    width: 45%;
     font-size: 15px;
   }
+  #project .project--left span {
+    font-size: 14px;
+    padding-bottom: 5px;
+  }
   #project .project--left__icons p {
-    font-size: 15px;
+    font-size: 12px;
   }
   #project .project--right .menu {
     padding: 0 20px;
   }
   #project .project--right .menu h1 {
-    font-size: 18px;
-    padding: 15px 0;
+    font-size: 17px;
+    padding: 10px 0;
   }
   #project .project--right .menu p {
-    font-size: 12px;
+    font-size: 11px;
   }
 }
 @media (max-width: 320px) {
   #hero .hero--group h1 {
-    font-size: 43px;
+    font-size: 35px;
     margin-bottom: 10px;
   }
   #hero .hero--group p {
-    font-size: 12px;
+    font-size: 10px;
   }
   #hero .hero--group__text {
     flex-wrap: wrap;
   }
   #hero .hero--group__text h2 {
-    font-size: 13px;
-    margin-bottom: 20px;
+    font-size: 10px;
+    margin-bottom: 40px;
   }
   #hero .hero--group__text button {
-    width: 47%;
-    font-size: 9px;
+    width: 140px;
+    font-size: 10px;
   }
   #hero .hero--group__text--icons a {
     font-size: 20px;
@@ -597,26 +833,31 @@
     gap: 2rem;
   }
   #block .block--one {
-    zoom: 77%;
+    width: 90%;
+  }
+  #car {
+    padding: 25px 0;
   }
   #car .car h1 {
     text-align: center;
-    font-size: 22px;
+    font-size: 25px;
   }
   #car .car img {
     width: 90%;
-    margin-left: 15px;
+    margin-left: 16px;
   }
   #car .car--two {
     justify-content: center;
-    grid: none;
+  }
+  #car .car--two__general--one__text {
+    left: 105px;
+    bottom: 62px;
   }
   #car .car--two__general--one__text h3 {
-    font-size: 10px;
-    margin-top: -65px;
+    font-size: 14px;
   }
   #services h1 {
-    font-size: 25px;
+    font-size: 28px;
     text-align: center;
   }
   #services .services {
@@ -625,62 +866,59 @@
   #services .services--block {
     width: 90%;
   }
-  #services .services--block--text {
+  #services .services--block__square {
+    width: 77%;
+    height: 58px;
+  }
+  #services .services--block__square--dut {
+    border-top: 10px dotted white;
+  }
+  #services .services--block--text h3 {
     font-size: 14px;
-    margin: 12px 0 0 0;
   }
   #services .services--block--text h2 {
     font-size: 17px;
+    line-height: 20px;
   }
   #services .services--block--text p {
-    font-size: 12px;
-  }
-  #services .services--block__square {
-    width: 77%;
-    height: 40px;
-  }
-  #services .services--block__square img {
-    width: 15%;
-  }
-  #services .services--block__square--dut {
-    border-top: 9px dotted white;
-  }
-  #services .services--block--text h3 {
-    font-size: 7px;
+    font-size: 14px;
+    line-height: 22px;
+    margin: 12px 0 0 0;
   }
   #services .services--block--text__price span {
-    font-size: 10px;
+    font-size: 14px;
   }
   #services .services--btn {
     text-align: center;
   }
   #services .services--btn button {
-    width: 60%;
-    height: 50px;
-    font-size: 15px;
+    margin: 30px 0;
+    width: 65%;
+    height: 60px;
+    border-radius: 20px;
+    font-size: 19px;
   }
   #technology h1 {
+    font-size: 25px;
     text-align: center;
   }
-  #technology .technology {
-    width: 450px;
-    zoom: 40% !important;
-    flex-direction: column;
+  #technology .technology--tabs {
+    width: 90%;
   }
   #technology .technology--label {
     margin-left: 0;
   }
   #technology .technology--label .frontend span {
-    font-size: 22px;
+    font-size: 20px;
   }
   #technology .technology--label .backend span {
-    font-size: 22px;
+    font-size: 20px;
   }
   #technology .technology--label .UI-UX span {
-    font-size: 22px;
+    font-size: 20px;
   }
   #technology .technology--label .Database span {
-    font-size: 22px;
+    font-size: 20px;
   }
   #team .team h1 {
     text-align: center;
@@ -690,98 +928,152 @@
   }
   #process .process {
     flex-direction: column;
-    zoom: 90%;
+    width: 90%;
   }
   #process .process--block {
-    zoom: 60%;
+    width: 90%;
+  }
+  #process .process--block__text p {
+    width: 90%;
+    /* height: 120px; */
+    font-size: 11px;
+    line-height: 22px;
+  }
+  #process .process--block__text h1 {
+    font-size: 25px;
+    padding: 10px 0 8px 0;
+  }
+  #process .process--block__text h2 {
+    font-size: 25px;
+  }
+  #process .process--block__text ul {
+    padding-left: 12px;
+    padding-bottom: 30px;
+  }
+  #process .process--block__text ul li {
+    font-size: 13px;
+    margin-top: 26px;
+  }
+  #process .process--block__text img {
+    width: 90%;
   }
   #process .process--two {
-    zoom: 47%;
+    width: 90%;
+  }
+  #process .process--two img {
+    display: none;
+  }
+  #process .process--two__text h1 {
+    font-size: 20px;
+    padding-top: 40px;
   }
   #process .process--two__text p {
-    font-size: 23px;
-    line-height: 26px;
-    padding: 10px 0 10px 0;
+    font-size: 12px;
+    line-height: 20px;
+    padding: 0 0 0 0;
+  }
+  #process .process--two__text p img {
+    width: 16%;
   }
   #process .process--two__text h2 {
-    font-size: 22px;
-  }
-  #process .process--two__text ul {
-    font-size: 20px;
+    font-size: 12px;
+    margin-bottom: 30px;
   }
   #process .process--two__text ul li {
-    font-size: 20px;
-  }
-  #process .process--two__text img {
-    width: 14%;
-  }
-  #process .space {
-    zoom: 45%;
+    font-size: 14px;
   }
   #process .space--general {
-    zoom: 93%;
+    width: 90%;
+  }
+  #process .space--general__most h1 {
+    font-size: 26px;
+  }
+  #process .space--general__most h1 img {
+    margin-left: 13px;
   }
   #process .space--general__most h2 {
-    font-size: 25px;
-    line-height: 28px;
+    font-size: 12px;
+    line-height: 20px;
   }
-  #process .space--text ul li {
-    font-size: 18px;
-    padding: 9px 0;
-    margin: 0 10px;
+  #process .space--general__most img {
+    margin-left: 17px;
   }
   #process .space--test {
-    zoom: 86%;
+    width: 90%;
+  }
+  #process .space--test__text h1 {
+    font-size: 26px;
+    padding: 20px 0 5px 10px;
+  }
+  #process .space--test__text p {
+    font-size: 11px;
+  }
+  #process .space--test__text ul {
+    padding-left: 14px;
+    padding-bottom: 45px;
+  }
+  #process .space--test__text ul li {
+    font-size: 12px;
+    padding: 5px 0;
+    margin: 0 0;
   }
   #process .late {
-    zoom: 56%;
+    width: 90%;
   }
   #process .late--c h1 {
-    font-size: 32px;
+    font-size: 16px;
+  }
+  #process .late--c p {
+    font-size: 11px;
+    margin-left: 16px;
+    margin-bottom: 16px;
+  }
+  #process .late--c ul li {
+    font-size: 18px;
+    margin: 0 7px;
+  }
+  #process .late--c ul li p {
+    font-size: 10px;
   }
   #pro .pro {
     flex-direction: column;
   }
-  #pro .pro--mb {
-    margin-top: 30px;
-  }
-  #pro .pro--mb img {
-    width: 80%;
-    margin-left: 26px;
-  }
   #pro .pro--title h1 {
     text-align: center;
-    font-size: 25px;
   }
   #pro .pro--title p {
-    font-size: 11px;
-    line-height: 25px;
+    font-size: 10px;
+    line-height: 17px;
   }
   #request h1 {
     text-align: center;
-    font-size: 22px;
+    font-size: 25px;
   }
   #request .request {
     flex-direction: column;
   }
   #request .request p {
-    font-size: 9px;
+    font-size: 11px;
   }
   #request .request--block {
-    zoom: 49%;
-  }
-  #request .request--block p {
-    font-size: 19px;
-    line-height: 31px;
+    width: 90%;
   }
   #request .request--block button {
-    font-size: 20px;
+    height: 9%;
+    margin: 0 75px;
+    width: 50%;
+    font-size: 14px;
   }
   #request .request--block__input input {
-    font-size: 16px;
+    font-size: 9px;
+    width: 123px;
+    height: 35px;
   }
   #request .request--block .input {
-    font-size: 18px;
+    font-size: 14px;
+    width: 90%;
+    height: 40px;
+    margin-bottom: 30px;
   }
   #request #pro .pro {
     flex-direction: column;
@@ -790,30 +1082,28 @@
     flex-direction: column;
   }
   #project .project--left h1 {
-    font-size: 28px;
-  }
-  #project .project--left span {
-    font-size: 16px;
+    font-size: 27px;
   }
   #project .project--left button {
-    width: 40%;
-    font-size: 10px;
-    height: 40px;
+    width: 42%;
+    font-size: 12px;
   }
-  #project .project--left__icons ion-icon {
-    width: 15px;
+  #project .project--left span {
+    font-size: 14px;
+    padding-bottom: 5px;
   }
   #project .project--left__icons p {
-    font-size: 11px;
+    font-size: 12px;
   }
   #project .project--right .menu {
-    padding: 0 14px;
+    padding: 0 10px;
   }
   #project .project--right .menu h1 {
-    font-size: 13px;
+    font-size: 14px;
+    padding: 10px 0;
   }
   #project .project--right .menu p {
-    font-size: 8px;
+    font-size: 10px;
   }
 }
 

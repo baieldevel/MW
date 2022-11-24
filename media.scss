@@ -25,6 +25,102 @@
   }
 }
 
+@media (max-width: 1024px) {
+
+  #header {
+    .header {
+      &--logo {
+        &__nav {
+          a {
+            padding: 0 2px
+          }
+
+          button {
+            font-size: 15px;
+            padding: 10px 10px;
+          }
+        }
+      }
+    }
+  }
+
+  #hero {
+
+    .hero {
+      &--group {
+        h1 {
+          font-size: 110px;
+        }
+      }
+    }
+  }
+
+  #block {
+    .block {
+      &--one {
+        p {
+          font-size: 13px;
+        }
+      }
+    }
+  }
+
+  #car {
+    .car {
+      &--two {
+        flex-wrap: wrap;
+      }
+    }
+  }
+
+  #services {
+    .services {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    button {
+      margin-left: 360px;
+    }
+  }
+
+  #process {
+    .process {
+      gap: 10px;
+    }
+
+    .space {
+      gap: 10px;
+      flex-direction: column;
+    }
+
+    .late {
+      &--c {
+        p {
+          font-size: 16px;
+        }
+
+        ul {
+          li {
+            font-size: 25px;
+
+            p {
+              font-size: 17px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  #technology {
+    .technology {
+      padding: 0 0;
+    }
+  }
+
+}
+
 @media (max-width: 992px) {
   #technology {
     .technology {
@@ -152,17 +248,35 @@
     .hero {
       &--group {
         &__text {
-          flex-wrap: wrap;
+          align-items: start;
+          flex-direction: column;
+
+          button {
+            width: 200px;
+            height: 45px;
+            border-radius: 15px;
+            font-size: 14px;
+          }
+
+          h2 {
+            font-size: 11px;
+
+          }
 
           &--icons {
             a {
-              font-size: 35px;
+              font-size: 30px;
             }
           }
         }
 
         h1 {
-          font-size: 60px;
+          font-size: 55px;
+        }
+
+        p {
+          font-size: 15px;
+
         }
       }
     }
@@ -173,6 +287,9 @@
       flex-direction: column;
       gap: 2rem;
 
+      &__one {
+        width: 90%;
+      }
     }
   }
 
@@ -240,24 +357,108 @@
       flex-direction: column;
 
       &--block {
-        zoom: 96%;
+        width: 90%;
       }
 
       &--two {
-        zoom: 75%;
+        width: 90%;
+
+        &__text {
+          img {
+            width: 20%;
+          }
+
+          h1 {
+            font-size: 32px;
+            padding-top: 40px;
+          }
+
+          p {
+            font-size: 15px;
+            line-height: 20px;
+            padding: 0 0 0 0;
+          }
+
+          ul {
+            li {
+              padding: 0 0;
+              margin: 0 0;
+            }
+          }
+        }
       }
     }
 
     .space {
-      zoom: 71%;
+
+      &--general {
+        width: 90%;
+
+        &__most {
+          img {
+            width: 90%;
+            margin-left: 25px;
+            margin-top: 45px;
+          }
+
+          h2 {
+
+            font-size: 15px;
+            line-height: 20px;
+            margin: 0 40px;
+          }
+        }
+      }
 
       &--test {
-        width: 754px;
+        width: 90%;
+
+        &__text {
+          p {
+            font-size: 15px;
+            width: 90%;
+            padding: 0 0 0 0;
+          }
+
+          ul {
+            li {
+              margin: 0 17px;
+            }
+          }
+
+          img {
+            width: 90%;
+            margin-left: 0;
+          }
+        }
       }
     }
 
     .late {
-      height: 466px;
+      width: 90%;
+      margin-left: 28px;
+
+      &--c {
+        h1 {
+          font-size: 26px;
+        }
+
+        p {
+          font-size: 12px;
+          margin-left: 20px;
+        }
+
+        ul {
+          li {
+            font-size: 20px;
+            margin: 0 15px;
+
+            p {
+              font-size: 15px;
+            }
+          }
+        }
+      }
     }
   }
 
@@ -265,6 +466,17 @@
     .pro {
       flex-direction: column;
 
+      &--title {
+        p {
+          font-size: 11px;
+        }
+      }
+
+      &--mb {
+        img {
+          width: 90%;
+        }
+      }
     }
   }
 
@@ -287,6 +499,44 @@
   #project {
     .project {
       flex-direction: column;
+
+      &--right {
+        .menu {
+          h1 {
+            font-size: 20px;
+            padding-bottom: 20px;
+          }
+
+          p {
+            font-size: 11px;
+            padding: 5px 0;
+          }
+        }
+      }
+
+      &--left {
+        h1 {
+          font-size: 40px;
+        }
+
+        button {
+          font-size: 20px;
+          width: 200px;
+          height: 45px;
+          border-radius: 15px;
+        }
+
+        span {
+          font-size: 15px;
+          padding-bottom: 10px;
+        }
+
+        &__icons {
+          p {
+            font-size: 15px
+          }
+        }
+      }
     }
   }
 
@@ -413,12 +663,12 @@
     }
 
     .technology {
-      width: 822px;
-      zoom: 54%;
-      display: contents;
+      &--tabs {
+        width: 90%;
+      }
 
       &--label {
-        margin-left: 43%;
+        margin-left: 0;
 
         .frontend {
           span {
@@ -462,20 +712,22 @@
 
     .process {
       flex-direction: column;
-      zoom: 90%;
+      width: 90%;
 
       &--block {
-        zoom: 80%;
-      }
-
-      &--two {
-        zoom: 63%;
+        width: 90%;
 
         &__text {
           p {
-            font-size: 25px;
-            line-height: 26px;
-            padding: 10px 0 10px 0;
+            width: 90%;
+            /* height: 120px; */
+            font-size: 12px;
+            line-height: 22px;
+          }
+
+          h1 {
+            font-size: 28px;
+            padding: 20px 0 8px 20px;
           }
 
           h2 {
@@ -484,12 +736,49 @@
 
           ul {
             li {
-              font-size: 20px;
+              font-size: 12px;
             }
           }
 
           img {
-            width: 16%;
+            width: 90%;
+          }
+        }
+      }
+
+      &--two {
+        width: 90%;
+
+        img {
+          width: 16%;
+        }
+
+        &__text {
+
+          h1 {
+            font-size: 20px;
+            padding-top: 40px;
+          }
+
+
+          p {
+            img {
+              width: 16%;
+            }
+
+            font-size: 12px;
+            line-height: 20px;
+            padding: 0 0 0 0;
+          }
+
+          h2 {
+            font-size: 12px;
+          }
+
+          ul {
+            li {
+              font-size: 14px;
+            }
           }
         }
       }
@@ -497,40 +786,52 @@
 
     .space {
       &--general {
-        zoom: 80%;
+        width: 90%;
 
         &__most {
+          h1 {
+            font-size: 28px;
+          }
+
           h2 {
-            font-size: 25px;
-            line-height: 28px;
+            font-size: 14px;
+            line-height: 22px;
           }
         }
       }
 
-      &--text {
-        ul {
-          li {
-            font-size: 18px;
-            padding: 9px 0;
-            margin: 0 10px;
-          }
-        }
-      }
 
       &--test {
-        zoom: 103%;
+        width: 90%;
+
+        &__text {
+          h1 {
+            font-size: 28px;
+          }
+
+          ul {
+            li {
+              font-size: 18px;
+              padding: 9px 0;
+              margin: 0 10px;
+            }
+          }
+        }
+
       }
     }
 
     .late {
-      zoom: 77%;
+
+      width: 90%;
 
       &--c {
         h1 {
-          font-size: 32px;
+          font-size: 20px;
         }
       }
     }
+
   }
 
   #pro {
@@ -543,8 +844,8 @@
         }
 
         p {
-          font-size: 18px;
-          line-height: 26px;
+          font-size: 12px;
+          line-height: 20px;
         }
       }
     }
@@ -560,24 +861,35 @@
 
 
       p {
-        font-size: 18px;
+        font-size: 13px;
       }
 
       &--block {
-        zoom: 68%;
+        width: 90%;
 
         button {
-          font-size: 20px;
+          font-size: 15px;
+          width: 90%;
+          height: 15%;
+          margin: 0 15px;
         }
 
         &__input {
           input {
-            font-size: 16px;
+            font-size: 13px;
+            margin: 15px 10px;
+            font-weight: 400;
+            padding-left: 10px;
+            width: 184px;
+            height: 40px;
           }
         }
 
         .input {
-          font-size: 18px;
+          font-size: 14px;
+          width: 90%;
+          height: 40px;
+          margin-bottom: 30px;
         }
       }
     }
@@ -628,6 +940,7 @@
       }
     }
   }
+
 }
 
 @media (max-width: 390px) {
@@ -636,29 +949,29 @@
     .hero {
       &--group {
         h1 {
-          font-size: 50px;
+          font-size: 45px;
         }
 
         p {
-          font-size: 14px;
+          font-size: 12px;
         }
 
         &__text {
           flex-wrap: wrap;
 
           h2 {
-            font-size: 12px;
-            margin-bottom: 5px;
+            font-size: 11px;
+            margin-bottom: 20px;
           }
 
           button {
-            width: 300px;
-            font-size: 14px;
+            width: 200px;
+            font-size: 13px;
           }
 
           &--icons {
             a {
-              font-size: 30px;
+              font-size: 20px;
             }
           }
         }
@@ -685,7 +998,7 @@
 
       img {
         width: 90%;
-        margin-left: 15px;
+        margin-left: 16px;
       }
 
       &--two {
@@ -716,18 +1029,9 @@
       &--block {
         width: 90%;
 
-        &--text {
-          font-size: 14px;
-          margin: 12px 0 0 0
-        }
-
         &__square {
           width: 81%;
-          height: 50px;
-
-          img {
-            width: 15%;
-          }
+          height: 58px;
 
           &--dut {
             border-top: 10px dotted white;
@@ -736,12 +1040,24 @@
 
         &--text {
           h3 {
-            font-size: 11px;
+            font-size: 14px;
+          }
+
+          h2 {
+            font-size: 22px;
+            line-height: 30px;
+          }
+
+          p {
+            font-size: 14px;
+            line-height: 22px;
+            margin: 12px 0 0 0;
           }
 
           &__price {
             span {
-              font-size: 11px;
+              font-size: 14px;
+
             }
           }
         }
@@ -752,9 +1068,11 @@
         text-align: center;
 
         button {
-          width: 70%;
+          margin: 30px 0;
+          width: 65%;
           height: 60px;
-          font-size: 20px
+          border-radius: 20px;
+          font-size: 19px;
         }
       }
     }
@@ -762,36 +1080,39 @@
 
   #technology {
     h1 {
+      font-size: 25px;
       text-align: center;
     }
 
     .technology {
-      width: 450px;
-      zoom: 50%;
-      flex-direction: column;
+      &--tabs {
+        width: 90%;
+      }
 
       &--label {
+        margin-left: 0;
+
         .frontend {
           span {
-            font-size: 22px;
+            font-size: 20px;
           }
         }
 
         .backend {
           span {
-            font-size: 22px;
+            font-size: 20px;
           }
         }
 
         .UI-UX {
           span {
-            font-size: 22px;
+            font-size: 20px;
           }
         }
 
         .Database {
           span {
-            font-size: 22px;
+            font-size: 20px;
           }
         }
       }
@@ -808,81 +1129,147 @@
 
   #process {
     h1 {
-      font-size: 21px;
+      font-size: 20px;
     }
 
     .process {
       flex-direction: column;
-      zoom: 90%;
+      width: 90%;
 
       &--block {
-        zoom: 71%;
-      }
-
-      &--two {
-        zoom: 56%;
+        width: 90%;
 
         &__text {
           p {
-            font-size: 23px;
-            line-height: 26px;
-            padding: 10px 0 10px 0;
+            width: 90%;
+            /* height: 120px; */
+            font-size: 12px;
+            line-height: 22px;
+          }
+
+          h1 {
+            font-size: 28px;
+            padding: 20px 0 8px 20px;
           }
 
           h2 {
-            font-size: 22px;
+            font-size: 20px;
           }
 
           ul {
             li {
-              font-size: 20px;
+              font-size: 12px;
             }
           }
 
           img {
-            width: 16%;
+            width: 90%;
           }
         }
       }
+
+      &--two {
+        width: 90%;
+
+        img {
+          display: none;
+        }
+
+        &__text {
+
+          h1 {
+            font-size: 20px;
+            padding-top: 40px;
+          }
+
+
+          p {
+            img {
+              width: 16%;
+            }
+
+            font-size: 12px;
+            line-height: 20px;
+            padding: 0 0 0 0;
+          }
+
+          h2 {
+            font-size: 12px;
+          }
+
+          ul {
+            li {
+              font-size: 14px;
+            }
+          }
+        }
+      }
+
     }
 
     .space {
-      zoom: 63%;
-
       &--general {
+        width: 90%;
 
         &__most {
+          h1 {
+            font-size: 28px;
+
+            img {
+              margin-left: 17px;
+
+            }
+          }
+
+
           h2 {
-            font-size: 25px;
-            line-height: 28px;
+            font-size: 12px;
+            line-height: 20px;
           }
         }
       }
 
-      &--text {
-        ul {
-          li {
-            font-size: 18px;
-            padding: 9px 0;
-            margin: 0 10px;
-          }
-        }
-      }
 
       &--test {
-        zoom: 103%;
+        width: 90%;
+
+        &__text {
+          h1 {
+            font-size: 28px;
+          }
+
+          ul {
+            li {
+              font-size: 15px;
+              padding: 9px 0;
+              margin: 0 0;
+            }
+          }
+        }
+
       }
     }
 
     .late {
-      zoom: 60%;
+
+      width: 90%;
 
       &--c {
         h1 {
-          font-size: 32px;
+          font-size: 20px;
+        }
+
+        ul {
+          li {
+            p {
+              font-size: 13px;
+
+            }
+          }
         }
       }
     }
+
   }
 
   #pro {
@@ -895,8 +1282,8 @@
         }
 
         p {
-          font-size: 18px;
-          line-height: 26px;
+          font-size: 10px;
+          line-height: 17px;
         }
       }
     }
@@ -905,6 +1292,7 @@
   #request {
     h1 {
       text-align: center;
+      font-size: 25px;
     }
 
     .request {
@@ -916,24 +1304,26 @@
       }
 
       &--block {
-        zoom: 58%;
-
-        p {
-          font-size: 18px;
-        }
+        width: 90%;
 
         button {
-          font-size: 20px;
+          height: 10%;
+          margin: 0 15px;
         }
 
         &__input {
           input {
-            font-size: 16px;
+            font-size: 10px;
+            width: 156px;
+            height: 38px;
           }
         }
 
         .input {
-          font-size: 18px;
+          font-size: 14px;
+          width: 90%;
+          height: 40px;
+          margin-bottom: 30px;
         }
       }
     }
@@ -952,19 +1342,25 @@
 
       &--left {
         h1 {
-          font-size: 35px;
+          font-size: 30px;
         }
 
         button {
-          width: 50%;
+          width: 45%;
           font-size: 15px;
+        }
+
+        span {
+          font-size: 14px;
+          padding-bottom: 5px;
         }
 
         &__icons {
           p {
-            font-size: 15px;
+            font-size: 12px;
           }
         }
+
 
       }
 
@@ -973,12 +1369,12 @@
           padding: 0 20px;
 
           h1 {
-            font-size: 18px;
-            padding: 15px 0;
+            font-size: 17px;
+            padding: 10px 0;
           }
 
           p {
-            font-size: 12px;
+            font-size: 11px;
           }
         }
       }
@@ -993,25 +1389,25 @@
     .hero {
       &--group {
         h1 {
-          font-size: 43px;
+          font-size: 35px;
           margin-bottom: 10px;
         }
 
         p {
-          font-size: 12px;
+          font-size: 10px;
         }
 
         &__text {
           flex-wrap: wrap;
 
           h2 {
-            font-size: 13px;
-            margin-bottom: 20px;
+            font-size: 10px;
+            margin-bottom: 40px;
           }
 
           button {
-            width: 47%;
-            font-size: 9px;
+            width: 140px;
+            font-size: 10px;
           }
 
           &--icons {
@@ -1030,34 +1426,36 @@
       gap: 2rem;
 
       &--one {
-        zoom: 77%;
+        width: 90%;
       }
     }
+
   }
 
   #car {
+    padding: 25px 0;
 
     .car {
       h1 {
         text-align: center;
-        font-size: 22px;
+        font-size: 25px;
       }
 
       img {
         width: 90%;
-        margin-left: 15px;
+        margin-left: 16px;
       }
 
       &--two {
         justify-content: center;
-        grid: none;
 
         &__general {
           &--one {
             &__text {
+              left: 105px;
+              bottom: 62px;
               h3 {
-                font-size: 10px;
-                margin-top: -65px
+                font-size: 14px;
               }
             }
           }
@@ -1068,7 +1466,7 @@
 
   #services {
     h1 {
-      font-size: 25px;
+      font-size: 28px;
       text-align: center;
     }
 
@@ -1078,52 +1476,50 @@
       &--block {
         width: 90%;
 
-        &--text {
-          font-size: 14px;
-          margin: 12px 0 0 0;
-
-          h2 {
-            font-size: 17px;
-          }
-
-          p {
-            font-size: 12px;
-          }
-        }
-
         &__square {
           width: 77%;
-          height: 40px;
-
-          img {
-            width: 15%;
-          }
+          height: 58px;
 
           &--dut {
-            border-top: 9px dotted white;
+            border-top: 10px dotted white;
           }
         }
 
         &--text {
           h3 {
-            font-size: 7px;
+            font-size: 14px;
+          }
+
+          h2 {
+            font-size: 17px;
+            line-height: 20px;
+          }
+
+          p {
+            font-size: 14px;
+            line-height: 22px;
+            margin: 12px 0 0 0;
           }
 
           &__price {
             span {
-              font-size: 10px;
+              font-size: 14px;
+
             }
           }
         }
       }
 
+
       &--btn {
         text-align: center;
 
         button {
-          width: 60%;
-          height: 50px;
-          font-size: 15px;
+          margin: 30px 0;
+          width: 65%;
+          height: 60px;
+          border-radius: 20px;
+          font-size: 19px;
         }
       }
     }
@@ -1131,39 +1527,39 @@
 
   #technology {
     h1 {
+      font-size: 25px;
       text-align: center;
     }
 
     .technology {
-      width: 450px;
-      zoom: 40% !important;
-      flex-direction: column;
-
+      &--tabs {
+        width: 90%;
+      }
 
       &--label {
         margin-left: 0;
 
         .frontend {
           span {
-            font-size: 22px;
+            font-size: 20px;
           }
         }
 
         .backend {
           span {
-            font-size: 22px;
+            font-size: 20px;
           }
         }
 
         .UI-UX {
           span {
-            font-size: 22px;
+            font-size: 20px;
           }
         }
 
         .Database {
           span {
-            font-size: 22px;
+            font-size: 20px;
           }
         }
       }
@@ -1185,103 +1581,175 @@
 
     .process {
       flex-direction: column;
-      zoom: 90%;
+      width: 90%;
 
       &--block {
-        zoom: 60%;
-      }
-
-      &--two {
-        zoom: 47%;
+        width: 90%;
 
         &__text {
           p {
-            font-size: 23px;
-            line-height: 26px;
-            padding: 10px 0 10px 0;
+            width: 90%;
+            /* height: 120px; */
+            font-size: 11px;
+            line-height: 22px;
+          }
+
+          h1 {
+            font-size: 25px;
+            padding: 10px 0 8px 0;;
           }
 
           h2 {
-            font-size: 22px;
+            font-size: 25px;
           }
 
           ul {
-            font-size: 20px;
-
+            padding-left: 12px;
+            padding-bottom: 30px;
             li {
-              font-size: 20px;
-            }
+              font-size: 13px;
+              margin-top: 26px;            }
           }
 
           img {
-            width: 14%;
+            width: 90%;
           }
         }
       }
+
+      &--two {
+        width: 90%;
+
+        img {
+          display: none;
+        }
+
+        &__text {
+
+          h1 {
+            font-size: 20px;
+            padding-top: 40px;
+          }
+
+
+          p {
+            img {
+              width: 16%;
+            }
+
+            font-size: 12px;
+            line-height: 20px;
+            padding: 0 0 0 0;
+          }
+
+          h2 {
+            font-size: 12px;
+            margin-bottom: 30px;
+          }
+
+          ul {
+            li {
+              font-size: 14px;
+            }
+          }
+        }
+      }
+
     }
 
     .space {
-      zoom: 45%;
-
       &--general {
-        zoom: 93%;
+        width: 90%;
 
         &__most {
+          h1 {
+            font-size: 26px;
+
+            img {
+              margin-left: 13px;
+            }
+          }
+
           h2 {
-            font-size: 25px;
-            line-height: 28px;
+            font-size: 12px;
+            line-height: 20px;
+          }
+          img {
+            margin-left: 17px;
+
           }
         }
       }
 
-      &--text {
-        ul {
-          li {
-            font-size: 18px;
-            padding: 9px 0;
-            margin: 0 10px;
-          }
-        }
-      }
 
       &--test {
-        zoom: 86%;
+        width: 90%;
+
+        &__text {
+          h1 {
+            font-size: 26px;
+            padding: 20px 0 5px 10px;
+
+          }
+
+          p {
+            font-size: 11px;
+          }
+
+          ul {
+            padding-left: 14px;
+            padding-bottom: 45px;
+
+            li {
+              font-size: 12px;
+              padding: 5px 0;
+              margin: 0 0;
+            }
+          }
+        }
       }
     }
 
     .late {
-      zoom: 56%;
+
+      width: 90%;
 
       &--c {
         h1 {
-          font-size: 32px;
+          font-size: 16px;
+        }
+        p {
+          font-size: 11px;
+          margin-left: 16px;
+          margin-bottom: 16px;
+        }
+
+        ul {
+          li {
+            font-size: 18px;
+            margin: 0 7px;
+            p {
+              font-size: 10px;
+            }
+          }
         }
       }
     }
+
   }
 
   #pro {
     .pro {
       flex-direction: column;
 
-      &--mb {
-        margin-top: 30px;
-
-        img {
-          width: 80%;
-          margin-left: 26px;
-        }
-      }
-
       &--title {
         h1 {
           text-align: center;
-          font-size: 25px;
         }
 
         p {
-          font-size: 11px;
-          line-height: 25px;
+          font-size: 10px;
+          line-height: 17px;
         }
       }
     }
@@ -1290,7 +1758,7 @@
   #request {
     h1 {
       text-align: center;
-      font-size: 22px;
+      font-size: 25px;
     }
 
     .request {
@@ -1298,29 +1766,32 @@
 
 
       p {
-        font-size: 9px;
+        font-size: 11px;
       }
 
       &--block {
-        zoom: 49%;
-
-        p {
-          font-size: 19px;
-          line-height: 31px;
-        }
+        width: 90%;
 
         button {
-          font-size: 20px;
+          height: 9%;
+          margin: 0 75px;
+          width: 50%;
+          font-size: 14px;
         }
 
         &__input {
           input {
-            font-size: 16px;
+            font-size: 9px;
+            width: 123px;
+            height: 35px;
           }
         }
 
         .input {
-          font-size: 18px;
+          font-size: 14px;
+          width: 90%;
+          height: 40px;
+          margin-bottom: 30px;
         }
       }
     }
@@ -1339,41 +1810,39 @@
 
       &--left {
         h1 {
-          font-size: 28px;
-        }
-
-        span {
-          font-size: 16px;
+          font-size: 27px;
         }
 
         button {
-          width: 40%;
-          font-size: 10px;
-          height: 40px;
+          width: 42%;
+          font-size: 12px
+        }
+
+        span {
+          font-size: 14px;
+          padding-bottom: 5px;
         }
 
         &__icons {
-          ion-icon {
-            width: 15px;
-          }
-
           p {
-            font-size: 11px;
+            font-size: 12px;
           }
         }
+
 
       }
 
       &--right {
         .menu {
-          padding: 0 14px;
+          padding: 0 10px;
 
           h1 {
-            font-size: 13px;
+            font-size: 14px;
+            padding: 10px 0;
           }
 
           p {
-            font-size: 8px;
+            font-size: 10px;
           }
         }
       }

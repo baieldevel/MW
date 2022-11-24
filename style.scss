@@ -175,11 +175,8 @@
     }
 
     &--two {
-      display: flex;
+      @include sb;
       flex-wrap: wrap;
-      grid-template-columns: repeat(3, 3fr);
-      gap: 20px;
-
       &__general {
         &--one {
           position: relative;
@@ -225,12 +222,10 @@
   }
 
   .services {
-    display: grid;
+    @include sb;
     flex-wrap: wrap;
-    grid-template-columns: repeat(3, 3fr);
-    gap: 30px;
-
     &--block {
+      margin: 20px 0;
       width: 400px;
       height: 400px;
       background: #FFFFff;
@@ -270,8 +265,8 @@
         }
 
         &__price {
-          display: flex;
-          align-items: center;
+          @include sb;
+
           margin-top: 40px;
 
           span {
@@ -284,7 +279,6 @@
             font-weight: 700;
             font-size: 24px;
             color: #FF001E;
-            margin-left: 100px;
           }
         }
       }
@@ -293,9 +287,7 @@
 
     &--btn {
       display: flex;
-      align-items: center;
       justify-content: center;
-
       button {
         margin: 50px 0;
         width: 400px;
@@ -359,6 +351,7 @@
           font-weight: 600;
           font-size: 36px;
           color: #FF001E;
+          padding: 20px 0 8px 60px;
         }
 
         p {
@@ -496,7 +489,7 @@
 
         img {
           margin-left: 53px;
-          margin-top: 30px;
+          margin-top: 20px;
         }
       }
     }
@@ -526,12 +519,12 @@
         padding-left: 20px;
 
         h1 {
-          text-align: center;
           font-weight: 600;
           font-size: 36px;
           letter-spacing: 0.003em;
-          padding-top: 30px;
           color: #FF001E;
+          padding: 20px 0 8px 60px;
+
         }
 
         p {

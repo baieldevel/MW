@@ -137,7 +137,7 @@ button {
 #pro .pro {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 #pro .pro--title {
   margin-top: 50px;
@@ -149,28 +149,29 @@ button {
   color: #FFFFFF;
 }
 #pro .pro--title p {
-  width: 480px;
+  width: 554px;
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
   letter-spacing: 0.003em;
   color: #FFFFFF;
-  margin: 30px 0;
+  margin: 20px 0;
 }
 #pro .pro--title h2 {
-  width: 99%;
+  width: 554px;
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
   letter-spacing: 0.003em;
   color: #FFFFFF;
+  margin: 0 0 60px 0;
 }
 #pro .pro--mb {
-  margin-top: 90px;
+  margin-top: 60px;
 }
 #pro .pro--mb input {
   width: 600px;
-  height: 60px;
+  height: 40px;
 }
 #pro .pro--mb h1 {
   font-weight: 400;
@@ -178,15 +179,38 @@ button {
   line-height: 17px;
   color: #FFFFFF;
 }
-#pro .pro--mb__block {
-  display: flex;
-  margin: 15px 0;
+
+#what {
+  background: #222222;
 }
-#pro .pro--mb__block--two {
-  width: 100px;
-  height: 20px;
+#what .what h1 {
+  font-weight: 700;
+  font-size: 36px;
+  color: #FFFFFF;
+}
+#what .what--our {
+  width: 710px;
+  height: 350px;
   background: #FFFFFF;
-  border-radius: 2px;
+  border-radius: 20px;
+}
+#what .what--our h1 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #FF001E;
+  margin-left: 30px;
+  padding-top: 35px;
+}
+#what .what--our p {
+  width: 660px;
+  height: 154px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #000000;
+  margin-left: 30px;
+  padding-top: 10px;
 }
 
 /*# sourceMappingURL=style3.css.map */

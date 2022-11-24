@@ -180,9 +180,9 @@ button {
 }
 #car .car--two {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
   flex-wrap: wrap;
-  grid-template-columns: repeat(3, 3fr);
-  gap: 20px;
 }
 #car .car--two__general--one {
   position: relative;
@@ -219,12 +219,13 @@ button {
   padding: 40px 0;
 }
 #services .services {
-  display: grid;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   flex-wrap: wrap;
-  grid-template-columns: repeat(3, 3fr);
-  gap: 30px;
 }
 #services .services--block {
+  margin: 20px 0;
   width: 400px;
   height: 400px;
   background: #FFFFff;
@@ -262,6 +263,7 @@ button {
 #services .services--block--text__price {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   margin-top: 40px;
 }
 #services .services--block--text__price span {
@@ -273,11 +275,9 @@ button {
   font-weight: 700;
   font-size: 24px;
   color: #FF001E;
-  margin-left: 100px;
 }
 #services .services--btn {
   display: flex;
-  align-items: center;
   justify-content: center;
 }
 #services .services--btn button {
@@ -334,6 +334,7 @@ button {
   font-weight: 600;
   font-size: 36px;
   color: #FF001E;
+  padding: 20px 0 8px 60px;
 }
 #process .process--block__text p {
   width: 428px;
@@ -446,7 +447,7 @@ button {
 }
 #process .space--general__most img {
   margin-left: 53px;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 #process .space--test {
   width: 590px;
@@ -470,12 +471,11 @@ button {
   padding-left: 20px;
 }
 #process .space--test__text h1 {
-  text-align: center;
   font-weight: 600;
   font-size: 36px;
   letter-spacing: 0.003em;
-  padding-top: 30px;
   color: #FF001E;
+  padding: 20px 0 8px 60px;
 }
 #process .space--test__text p {
   font-weight: 400;
